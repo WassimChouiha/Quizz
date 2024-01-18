@@ -53,7 +53,7 @@ const Quiz: React.FC<QuizProps> = ({ questions }) => {
       ) : (
         <div>
           <h2 className="text-2xl font-bold mb-4">Quiz Completed</h2>
-          <p className="text-xl">Your Score: {score}</p>
+          <p className="text-3xl">Your Score: {score}</p>
         </div>
       )}
     </div>
